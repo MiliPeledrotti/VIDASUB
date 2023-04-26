@@ -131,6 +131,13 @@ footer {
   padding: 20px;
   clear: both;
 }
+@media screen {
+  footer{
+    padding: 5px;
+    height: 70px;
+    
+  }
+}
 .dslogo {
   height: 300px;
   width:290px;
@@ -489,6 +496,7 @@ article.card{
                               url('proteccion.jpeg');
   background-size: cover;
 }
+
 .card:nth-child(6):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
