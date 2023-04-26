@@ -458,42 +458,42 @@ article.card{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/mar.jpeg');
+                              url('mar.jpeg');
   background-size: cover;
 }
 .card:nth-child(2):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/educacion.jpg');
+                              url('educacion.jpg');
   background-size: cover;
 }
 .card:nth-child(3):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/limpieza.jpeg');
+                              url('limpieza.jpeg');
   background-size: cover;
 }
 .card:nth-child(4):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/investigacion.jpg');
+                              url('investigacion.jpg');
   background-size: cover;
 }
 .card:nth-child(5):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/proteccion.jpeg');
+                              url('proteccion.jpeg');
   background-size: cover;
 }
 .card:nth-child(6):hover{
   background: linear-gradient(45deg,
                               rgba(96, 133, 235, 0.7) 0%,
                               rgba(75, 113, 218, 0.7) 100%),
-                              url('img/pesca.jpg');
+                              url('pesca.jpg');
   background-size: cover;
 }
 @media(max-width:980px){
@@ -517,20 +517,18 @@ article.card{
   }
 }
 .contenedor{
+  display: flex;
+  justify-content: space-around;
   list-style: none;
   margin: 30px;
-  align-items: center;
-  margin-top: 0%;
-}
-.contenedor li a{
-  list-style: none;
-  float: left;
-  margin-top: 10px;
-}
-.contenedor img{
-  height: auto;
-  width: 180px;
-  float: right;
+  margin-top: -20%;
 }
 
+.contenedor img{
+  display: flex;
+  height: auto;
+  width: 200px;
+  float:left;
+  justify-content: space-between;
+}
 
