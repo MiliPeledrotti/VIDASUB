@@ -531,12 +531,20 @@ article.card{
   margin: 30px;
   margin-top: -20%;
 }
+.contenedor li{
+  justify-content: space-around;
+}
 
 .contenedor img{
   display: flex;
   height: auto;
   width: 200px;
-  float:left;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-
+@media screen and (max-width:768px) {
+  .contenedor img{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+}
